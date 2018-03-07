@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		928D0840205064E5001BFD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D083F205064E5001BFD3B /* AppDelegate.swift */; };
+		928D0842205064E5001BFD3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D0841205064E5001BFD3B /* ViewController.swift */; };
+		928D0845205064E5001BFD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D0843205064E5001BFD3B /* Main.storyboard */; };
+		928D0847205064E5001BFD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928D0846205064E5001BFD3B /* Assets.xcassets */; };
+		928D084A205064E5001BFD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D0848205064E5001BFD3B /* LaunchScreen.storyboard */; };
+		928D0855205064E5001BFD3B /* MunchMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D0854205064E5001BFD3B /* MunchMateTests.swift */; };
+		928D0860205064E5001BFD3B /* MunchMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D085F205064E5001BFD3B /* MunchMateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		928D0851205064E5001BFD3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928D0834205064E5001BFD3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928D083B205064E5001BFD3B;
+			remoteInfo = MunchMate;
+		};
+		928D085C205064E5001BFD3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928D0834205064E5001BFD3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928D083B205064E5001BFD3B;
+			remoteInfo = MunchMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		928D083C205064E5001BFD3B /* MunchMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunchMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		928D083F205064E5001BFD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		928D0841205064E5001BFD3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		928D0844205064E5001BFD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		928D0846205064E5001BFD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		928D0849205064E5001BFD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		928D084B205064E5001BFD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928D0850205064E5001BFD3B /* MunchMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunchMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		928D0854205064E5001BFD3B /* MunchMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunchMateTests.swift; sourceTree = "<group>"; };
+		928D0856205064E5001BFD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928D085B205064E5001BFD3B /* MunchMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunchMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		928D085F205064E5001BFD3B /* MunchMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunchMateUITests.swift; sourceTree = "<group>"; };
+		928D0861205064E5001BFD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		928D0839205064E5001BFD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928D084D205064E5001BFD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928D0858205064E5001BFD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		928D0833205064E5001BFD3B = {
+			isa = PBXGroup;
+			children = (
+				928D083E205064E5001BFD3B /* MunchMate */,
+				928D0853205064E5001BFD3B /* MunchMateTests */,
+				928D085E205064E5001BFD3B /* MunchMateUITests */,
+				928D083D205064E5001BFD3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		928D083D205064E5001BFD3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				928D083C205064E5001BFD3B /* MunchMate.app */,
+				928D0850205064E5001BFD3B /* MunchMateTests.xctest */,
+				928D085B205064E5001BFD3B /* MunchMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		928D083E205064E5001BFD3B /* MunchMate */ = {
+			isa = PBXGroup;
+			children = (
+				928D083F205064E5001BFD3B /* AppDelegate.swift */,
+				928D0841205064E5001BFD3B /* ViewController.swift */,
+				928D0843205064E5001BFD3B /* Main.storyboard */,
+				928D0846205064E5001BFD3B /* Assets.xcassets */,
+				928D0848205064E5001BFD3B /* LaunchScreen.storyboard */,
+				928D084B205064E5001BFD3B /* Info.plist */,
+			);
+			path = MunchMate;
+			sourceTree = "<group>";
+		};
+		928D0853205064E5001BFD3B /* MunchMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				928D0854205064E5001BFD3B /* MunchMateTests.swift */,
+				928D0856205064E5001BFD3B /* Info.plist */,
+			);
+			path = MunchMateTests;
+			sourceTree = "<group>";
+		};
+		928D085E205064E5001BFD3B /* MunchMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				928D085F205064E5001BFD3B /* MunchMateUITests.swift */,
+				928D0861205064E5001BFD3B /* Info.plist */,
+			);
+			path = MunchMateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		928D083B205064E5001BFD3B /* MunchMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928D0864205064E5001BFD3B /* Build configuration list for PBXNativeTarget "MunchMate" */;
+			buildPhases = (
+				928D0838205064E5001BFD3B /* Sources */,
+				928D0839205064E5001BFD3B /* Frameworks */,
+				928D083A205064E5001BFD3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MunchMate;
+			productName = MunchMate;
+			productReference = 928D083C205064E5001BFD3B /* MunchMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		928D084F205064E5001BFD3B /* MunchMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928D0867205064E5001BFD3B /* Build configuration list for PBXNativeTarget "MunchMateTests" */;
+			buildPhases = (
+				928D084C205064E5001BFD3B /* Sources */,
+				928D084D205064E5001BFD3B /* Frameworks */,
+				928D084E205064E5001BFD3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928D0852205064E5001BFD3B /* PBXTargetDependency */,
+			);
+			name = MunchMateTests;
+			productName = MunchMateTests;
+			productReference = 928D0850205064E5001BFD3B /* MunchMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		928D085A205064E5001BFD3B /* MunchMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928D086A205064E5001BFD3B /* Build configuration list for PBXNativeTarget "MunchMateUITests" */;
+			buildPhases = (
+				928D0857205064E5001BFD3B /* Sources */,
+				928D0858205064E5001BFD3B /* Frameworks */,
+				928D0859205064E5001BFD3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928D085D205064E5001BFD3B /* PBXTargetDependency */,
+			);
+			name = MunchMateUITests;
+			productName = MunchMateUITests;
+			productReference = 928D085B205064E5001BFD3B /* MunchMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		928D0834205064E5001BFD3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Robert Lykins";
+				TargetAttributes = {
+					928D083B205064E5001BFD3B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					928D084F205064E5001BFD3B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 928D083B205064E5001BFD3B;
+					};
+					928D085A205064E5001BFD3B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 928D083B205064E5001BFD3B;
+					};
+				};
+			};
+			buildConfigurationList = 928D0837205064E5001BFD3B /* Build configuration list for PBXProject "MunchMate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 928D0833205064E5001BFD3B;
+			productRefGroup = 928D083D205064E5001BFD3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				928D083B205064E5001BFD3B /* MunchMate */,
+				928D084F205064E5001BFD3B /* MunchMateTests */,
+				928D085A205064E5001BFD3B /* MunchMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		928D083A205064E5001BFD3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928D084A205064E5001BFD3B /* LaunchScreen.storyboard in Resources */,
+				928D0847205064E5001BFD3B /* Assets.xcassets in Resources */,
+				928D0845205064E5001BFD3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928D084E205064E5001BFD3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928D0859205064E5001BFD3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		928D0838205064E5001BFD3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928D0842205064E5001BFD3B /* ViewController.swift in Sources */,
+				928D0840205064E5001BFD3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928D084C205064E5001BFD3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928D0855205064E5001BFD3B /* MunchMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928D0857205064E5001BFD3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928D0860205064E5001BFD3B /* MunchMateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		928D0852205064E5001BFD3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928D083B205064E5001BFD3B /* MunchMate */;
+			targetProxy = 928D0851205064E5001BFD3B /* PBXContainerItemProxy */;
+		};
+		928D085D205064E5001BFD3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928D083B205064E5001BFD3B /* MunchMate */;
+			targetProxy = 928D085C205064E5001BFD3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		928D0843205064E5001BFD3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928D0844205064E5001BFD3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		928D0848205064E5001BFD3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928D0849205064E5001BFD3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		928D0862205064E5001BFD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		928D0863205064E5001BFD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		928D0865205064E5001BFD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MunchMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rlykins.MunchMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		928D0866205064E5001BFD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MunchMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rlykins.MunchMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		928D0868205064E5001BFD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MunchMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rlykins.MunchMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MunchMate.app/MunchMate";
+			};
+			name = Debug;
+		};
+		928D0869205064E5001BFD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MunchMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rlykins.MunchMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MunchMate.app/MunchMate";
+			};
+			name = Release;
+		};
+		928D086B205064E5001BFD3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MunchMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rlykins.MunchMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MunchMate;
+			};
+			name = Debug;
+		};
+		928D086C205064E5001BFD3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MunchMateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rlykins.MunchMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MunchMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		928D0837205064E5001BFD3B /* Build configuration list for PBXProject "MunchMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928D0862205064E5001BFD3B /* Debug */,
+				928D0863205064E5001BFD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928D0864205064E5001BFD3B /* Build configuration list for PBXNativeTarget "MunchMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928D0865205064E5001BFD3B /* Debug */,
+				928D0866205064E5001BFD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928D0867205064E5001BFD3B /* Build configuration list for PBXNativeTarget "MunchMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928D0868205064E5001BFD3B /* Debug */,
+				928D0869205064E5001BFD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928D086A205064E5001BFD3B /* Build configuration list for PBXNativeTarget "MunchMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928D086B205064E5001BFD3B /* Debug */,
+				928D086C205064E5001BFD3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 928D0834205064E5001BFD3B /* Project object */;
+}
