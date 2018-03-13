@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		928C89972053639900C87727 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89902053639700C87727 /* FirebaseInstanceID.framework */; };
+		928C89982053639900C87727 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89912053639800C87727 /* nanopb.framework */; };
+		928C89992053639900C87727 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89922053639800C87727 /* FirebaseCoreDiagnostics.framework */; };
+		928C899A2053639900C87727 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89932053639900C87727 /* FirebaseAnalytics.framework */; };
+		928C899B2053639900C87727 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89942053639900C87727 /* FirebaseNanoPB.framework */; };
+		928C899C2053639900C87727 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89952053639900C87727 /* GoogleToolboxForMac.framework */; };
+		928C899D2053639900C87727 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89962053639900C87727 /* FirebaseCore.framework */; };
+		928C89A0205363D100C87727 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C899E205363D000C87727 /* leveldb-library.framework */; };
+		928C89A1205363D100C87727 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C899F205363D100C87727 /* FirebaseDatabase.framework */; };
 		928D0840205064E5001BFD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D083F205064E5001BFD3B /* AppDelegate.swift */; };
-		928D0842205064E5001BFD3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D0841205064E5001BFD3B /* ViewController.swift */; };
+		928D0842205064E5001BFD3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D0841205064E5001BFD3B /* HomeViewController.swift */; };
 		928D0845205064E5001BFD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D0843205064E5001BFD3B /* Main.storyboard */; };
 		928D0847205064E5001BFD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928D0846205064E5001BFD3B /* Assets.xcassets */; };
 		928D084A205064E5001BFD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D0848205064E5001BFD3B /* LaunchScreen.storyboard */; };
 		928D0855205064E5001BFD3B /* MunchMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D0854205064E5001BFD3B /* MunchMateTests.swift */; };
 		928D0860205064E5001BFD3B /* MunchMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D085F205064E5001BFD3B /* MunchMateUITests.swift */; };
+		929C35B1205853B900A1672F /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C35B0205853B900A1672F /* RecipeCell.swift */; };
+		92D5988D2051BC0400EEAF80 /* NewMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5988C2051BC0400EEAF80 /* NewMealViewController.swift */; };
+		92FC2ED32053146200376435 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC2ED22053146200376435 /* RecipesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		928C89902053639700C87727 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		928C89912053639800C87727 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		928C89922053639800C87727 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		928C89932053639900C87727 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		928C89942053639900C87727 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		928C89952053639900C87727 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		928C89962053639900C87727 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		928C899E205363D000C87727 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
+		928C899F205363D100C87727 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		928C89A2205365E100C87727 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		928D083C205064E5001BFD3B /* MunchMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunchMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928D083F205064E5001BFD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		928D0841205064E5001BFD3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		928D0841205064E5001BFD3B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		928D0844205064E5001BFD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		928D0846205064E5001BFD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		928D0849205064E5001BFD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +69,9 @@
 		928D085B205064E5001BFD3B /* MunchMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunchMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		928D085F205064E5001BFD3B /* MunchMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunchMateUITests.swift; sourceTree = "<group>"; };
 		928D0861205064E5001BFD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929C35B0205853B900A1672F /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		92D5988C2051BC0400EEAF80 /* NewMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMealViewController.swift; sourceTree = "<group>"; };
+		92FC2ED22053146200376435 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928C89A1205363D100C87727 /* FirebaseDatabase.framework in Frameworks */,
+				928C899A2053639900C87727 /* FirebaseAnalytics.framework in Frameworks */,
+				928C89992053639900C87727 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				928C899B2053639900C87727 /* FirebaseNanoPB.framework in Frameworks */,
+				928C899C2053639900C87727 /* GoogleToolboxForMac.framework in Frameworks */,
+				928C899D2053639900C87727 /* FirebaseCore.framework in Frameworks */,
+				928C89A0205363D100C87727 /* leveldb-library.framework in Frameworks */,
+				928C89982053639900C87727 /* nanopb.framework in Frameworks */,
+				928C89972053639900C87727 /* FirebaseInstanceID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +115,15 @@
 				928D0853205064E5001BFD3B /* MunchMateTests */,
 				928D085E205064E5001BFD3B /* MunchMateUITests */,
 				928D083D205064E5001BFD3B /* Products */,
+				928C899F205363D100C87727 /* FirebaseDatabase.framework */,
+				928C899E205363D000C87727 /* leveldb-library.framework */,
+				928C89932053639900C87727 /* FirebaseAnalytics.framework */,
+				928C89962053639900C87727 /* FirebaseCore.framework */,
+				928C89922053639800C87727 /* FirebaseCoreDiagnostics.framework */,
+				928C89902053639700C87727 /* FirebaseInstanceID.framework */,
+				928C89942053639900C87727 /* FirebaseNanoPB.framework */,
+				928C89952053639900C87727 /* GoogleToolboxForMac.framework */,
+				928C89912053639800C87727 /* nanopb.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +140,16 @@
 		928D083E205064E5001BFD3B /* MunchMate */ = {
 			isa = PBXGroup;
 			children = (
+				928C89A2205365E100C87727 /* Firebase.h */,
 				928D083F205064E5001BFD3B /* AppDelegate.swift */,
-				928D0841205064E5001BFD3B /* ViewController.swift */,
+				928D0841205064E5001BFD3B /* HomeViewController.swift */,
 				928D0843205064E5001BFD3B /* Main.storyboard */,
 				928D0846205064E5001BFD3B /* Assets.xcassets */,
 				928D0848205064E5001BFD3B /* LaunchScreen.storyboard */,
 				928D084B205064E5001BFD3B /* Info.plist */,
+				92D5988C2051BC0400EEAF80 /* NewMealViewController.swift */,
+				92FC2ED22053146200376435 /* RecipesViewController.swift */,
+				929C35B0205853B900A1672F /* RecipeCell.swift */,
 			);
 			path = MunchMate;
 			sourceTree = "<group>";
@@ -259,7 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				928D0842205064E5001BFD3B /* ViewController.swift in Sources */,
+				929C35B1205853B900A1672F /* RecipeCell.swift in Sources */,
+				92FC2ED32053146200376435 /* RecipesViewController.swift in Sources */,
+				92D5988D2051BC0400EEAF80 /* NewMealViewController.swift in Sources */,
+				928D0842205064E5001BFD3B /* HomeViewController.swift in Sources */,
 				928D0840205064E5001BFD3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,8 +477,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MunchMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = rlykins.MunchMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -441,8 +497,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MunchMate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = rlykins.MunchMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
