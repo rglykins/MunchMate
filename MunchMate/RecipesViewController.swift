@@ -25,7 +25,7 @@ extension RecipesViewController: UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "recipeCell", for: indexPath) as! RecipeCell
         cell.recipeName.text = "Makeshift text"
-        cell.backgroundColor = .black
+        cell.backgroundColor = .white
         return cell
         }
     
@@ -54,3 +54,17 @@ extension RecipesViewController: UICollectionViewDelegateFlowLayout{
         return insets.left
     }
 }
+
+extension RecipesViewController: UICollectionViewDelegate{
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let controller = storyboard!.instantiateViewController(withIdentifier: "RecipesDetailViewController") as! RecipesDetailViewController
+        navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    
+    
+    
+    
+}
+
+

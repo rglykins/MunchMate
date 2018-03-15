@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		928C89972053639900C87727 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89902053639700C87727 /* FirebaseInstanceID.framework */; };
-		928C89982053639900C87727 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89912053639800C87727 /* nanopb.framework */; };
-		928C89992053639900C87727 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89922053639800C87727 /* FirebaseCoreDiagnostics.framework */; };
-		928C899A2053639900C87727 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89932053639900C87727 /* FirebaseAnalytics.framework */; };
-		928C899B2053639900C87727 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89942053639900C87727 /* FirebaseNanoPB.framework */; };
-		928C899C2053639900C87727 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89952053639900C87727 /* GoogleToolboxForMac.framework */; };
-		928C899D2053639900C87727 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C89962053639900C87727 /* FirebaseCore.framework */; };
-		928C89A0205363D100C87727 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C899E205363D000C87727 /* leveldb-library.framework */; };
-		928C89A1205363D100C87727 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928C899F205363D100C87727 /* FirebaseDatabase.framework */; };
 		928D0840205064E5001BFD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D083F205064E5001BFD3B /* AppDelegate.swift */; };
 		928D0842205064E5001BFD3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D0841205064E5001BFD3B /* HomeViewController.swift */; };
 		928D0845205064E5001BFD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D0843205064E5001BFD3B /* Main.storyboard */; };
@@ -25,6 +16,23 @@
 		928D0860205064E5001BFD3B /* MunchMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D085F205064E5001BFD3B /* MunchMateUITests.swift */; };
 		929C35B1205853B900A1672F /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C35B0205853B900A1672F /* RecipeCell.swift */; };
 		92D5988D2051BC0400EEAF80 /* NewMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5988C2051BC0400EEAF80 /* NewMealViewController.swift */; };
+		92E53536205A4E98005CF027 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E53534205A4E97005CF027 /* leveldb-library.framework */; };
+		92E53537205A4E98005CF027 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E53535205A4E98005CF027 /* FirebaseDatabase.framework */; };
+		92E5353F205A4EBC005CF027 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E53538205A4EBA005CF027 /* FirebaseInstanceID.framework */; };
+		92E53540205A4EBC005CF027 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E53539205A4EBB005CF027 /* nanopb.framework */; };
+		92E53541205A4EBC005CF027 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E5353A205A4EBB005CF027 /* FirebaseCoreDiagnostics.framework */; };
+		92E53542205A4EBC005CF027 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E5353B205A4EBC005CF027 /* FirebaseAnalytics.framework */; };
+		92E53543205A4EBC005CF027 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E5353C205A4EBC005CF027 /* FirebaseNanoPB.framework */; };
+		92E53544205A4EBC005CF027 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E5353D205A4EBC005CF027 /* GoogleToolboxForMac.framework */; };
+		92E53545205A4EBC005CF027 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E5353E205A4EBC005CF027 /* FirebaseCore.framework */; };
+		92E53547205A5088005CF027 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92E53546205A5088005CF027 /* GoogleService-Info.plist */; };
+		92E53549205A5367005CF027 /* FirebaseDynamicLinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E53548205A5367005CF027 /* FirebaseDynamicLinks.framework */; };
+		92E5354C205A5376005CF027 /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E5354A205A5375005CF027 /* FirebaseStorage.framework */; };
+		92E5354D205A5376005CF027 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E5354B205A5375005CF027 /* GTMSessionFetcher.framework */; };
+		92F64B7F205A044600371012 /* RecipesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F64B7E205A044600371012 /* RecipesDetailViewController.swift */; };
+		92F64B85205A08A900371012 /* NutritionDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F64B84205A08A900371012 /* NutritionDetailsController.swift */; };
+		92F64B87205A1F4500371012 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F64B86205A1F4500371012 /* Recipe.swift */; };
+		92F64B8B205A3CA800371012 /* nutritionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F64B8A205A3CA800371012 /* nutritionCell.swift */; };
 		92FC2ED32053146200376435 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC2ED22053146200376435 /* RecipesViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,15 +54,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		928C89902053639700C87727 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		928C89912053639800C87727 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
-		928C89922053639800C87727 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		928C89932053639900C87727 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		928C89942053639900C87727 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
-		928C89952053639900C87727 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
-		928C89962053639900C87727 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
-		928C899E205363D000C87727 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
-		928C899F205363D100C87727 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
 		928C89A2205365E100C87727 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		928D083C205064E5001BFD3B /* MunchMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunchMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928D083F205064E5001BFD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +70,24 @@
 		928D0861205064E5001BFD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929C35B0205853B900A1672F /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		92D5988C2051BC0400EEAF80 /* NewMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMealViewController.swift; sourceTree = "<group>"; };
+		92E53534205A4E97005CF027 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
+		92E53535205A4E98005CF027 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		92E53538205A4EBA005CF027 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		92E53539205A4EBB005CF027 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		92E5353A205A4EBB005CF027 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		92E5353B205A4EBC005CF027 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		92E5353C205A4EBC005CF027 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		92E5353D205A4EBC005CF027 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		92E5353E205A4EBC005CF027 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		92E53546205A5088005CF027 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		92E53548205A5367005CF027 /* FirebaseDynamicLinks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDynamicLinks.framework; sourceTree = "<group>"; };
+		92E5354A205A5375005CF027 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = "<group>"; };
+		92E5354B205A5375005CF027 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		92F64B7E205A044600371012 /* RecipesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesDetailViewController.swift; sourceTree = "<group>"; };
+		92F64B84205A08A900371012 /* NutritionDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDetailsController.swift; sourceTree = "<group>"; };
+		92F64B86205A1F4500371012 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		92F64B8A205A3CA800371012 /* nutritionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritionCell.swift; sourceTree = "<group>"; };
+		92F64B8C205A47E300371012 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		92FC2ED22053146200376435 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,15 +96,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				928C89A1205363D100C87727 /* FirebaseDatabase.framework in Frameworks */,
-				928C899A2053639900C87727 /* FirebaseAnalytics.framework in Frameworks */,
-				928C89992053639900C87727 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				928C899B2053639900C87727 /* FirebaseNanoPB.framework in Frameworks */,
-				928C899C2053639900C87727 /* GoogleToolboxForMac.framework in Frameworks */,
-				928C899D2053639900C87727 /* FirebaseCore.framework in Frameworks */,
-				928C89A0205363D100C87727 /* leveldb-library.framework in Frameworks */,
-				928C89982053639900C87727 /* nanopb.framework in Frameworks */,
-				928C89972053639900C87727 /* FirebaseInstanceID.framework in Frameworks */,
+				92E53537205A4E98005CF027 /* FirebaseDatabase.framework in Frameworks */,
+				92E53549205A5367005CF027 /* FirebaseDynamicLinks.framework in Frameworks */,
+				92E5353F205A4EBC005CF027 /* FirebaseInstanceID.framework in Frameworks */,
+				92E53545205A4EBC005CF027 /* FirebaseCore.framework in Frameworks */,
+				92E5354D205A5376005CF027 /* GTMSessionFetcher.framework in Frameworks */,
+				92E53542205A4EBC005CF027 /* FirebaseAnalytics.framework in Frameworks */,
+				92E53541205A4EBC005CF027 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				92E53540205A4EBC005CF027 /* nanopb.framework in Frameworks */,
+				92E5354C205A5376005CF027 /* FirebaseStorage.framework in Frameworks */,
+				92E53544205A4EBC005CF027 /* GoogleToolboxForMac.framework in Frameworks */,
+				92E53543205A4EBC005CF027 /* FirebaseNanoPB.framework in Frameworks */,
+				92E53536205A4E98005CF027 /* leveldb-library.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,15 +135,18 @@
 				928D0853205064E5001BFD3B /* MunchMateTests */,
 				928D085E205064E5001BFD3B /* MunchMateUITests */,
 				928D083D205064E5001BFD3B /* Products */,
-				928C899F205363D100C87727 /* FirebaseDatabase.framework */,
-				928C899E205363D000C87727 /* leveldb-library.framework */,
-				928C89932053639900C87727 /* FirebaseAnalytics.framework */,
-				928C89962053639900C87727 /* FirebaseCore.framework */,
-				928C89922053639800C87727 /* FirebaseCoreDiagnostics.framework */,
-				928C89902053639700C87727 /* FirebaseInstanceID.framework */,
-				928C89942053639900C87727 /* FirebaseNanoPB.framework */,
-				928C89952053639900C87727 /* GoogleToolboxForMac.framework */,
-				928C89912053639800C87727 /* nanopb.framework */,
+				92E5354A205A5375005CF027 /* FirebaseStorage.framework */,
+				92E5354B205A5375005CF027 /* GTMSessionFetcher.framework */,
+				92E53548205A5367005CF027 /* FirebaseDynamicLinks.framework */,
+				92E5353B205A4EBC005CF027 /* FirebaseAnalytics.framework */,
+				92E5353E205A4EBC005CF027 /* FirebaseCore.framework */,
+				92E5353A205A4EBB005CF027 /* FirebaseCoreDiagnostics.framework */,
+				92E53538205A4EBA005CF027 /* FirebaseInstanceID.framework */,
+				92E5353C205A4EBC005CF027 /* FirebaseNanoPB.framework */,
+				92E5353D205A4EBC005CF027 /* GoogleToolboxForMac.framework */,
+				92E53539205A4EBB005CF027 /* nanopb.framework */,
+				92E53535205A4E98005CF027 /* FirebaseDatabase.framework */,
+				92E53534205A4E97005CF027 /* leveldb-library.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +163,8 @@
 		928D083E205064E5001BFD3B /* MunchMate */ = {
 			isa = PBXGroup;
 			children = (
+				92E53546205A5088005CF027 /* GoogleService-Info.plist */,
+				92F64B8C205A47E300371012 /* module.modulemap */,
 				928C89A2205365E100C87727 /* Firebase.h */,
 				928D083F205064E5001BFD3B /* AppDelegate.swift */,
 				928D0841205064E5001BFD3B /* HomeViewController.swift */,
@@ -150,6 +175,10 @@
 				92D5988C2051BC0400EEAF80 /* NewMealViewController.swift */,
 				92FC2ED22053146200376435 /* RecipesViewController.swift */,
 				929C35B0205853B900A1672F /* RecipeCell.swift */,
+				92F64B7E205A044600371012 /* RecipesDetailViewController.swift */,
+				92F64B84205A08A900371012 /* NutritionDetailsController.swift */,
+				92F64B86205A1F4500371012 /* Recipe.swift */,
+				92F64B8A205A3CA800371012 /* nutritionCell.swift */,
 			);
 			path = MunchMate;
 			sourceTree = "<group>";
@@ -280,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				928D084A205064E5001BFD3B /* LaunchScreen.storyboard in Resources */,
+				92E53547205A5088005CF027 /* GoogleService-Info.plist in Resources */,
 				928D0847205064E5001BFD3B /* Assets.xcassets in Resources */,
 				928D0845205064E5001BFD3B /* Main.storyboard in Resources */,
 			);
@@ -307,9 +337,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				929C35B1205853B900A1672F /* RecipeCell.swift in Sources */,
+				92F64B8B205A3CA800371012 /* nutritionCell.swift in Sources */,
 				92FC2ED32053146200376435 /* RecipesViewController.swift in Sources */,
+				92F64B85205A08A900371012 /* NutritionDetailsController.swift in Sources */,
 				92D5988D2051BC0400EEAF80 /* NewMealViewController.swift in Sources */,
+				92F64B7F205A044600371012 /* RecipesDetailViewController.swift in Sources */,
 				928D0842205064E5001BFD3B /* HomeViewController.swift in Sources */,
+				92F64B87205A1F4500371012 /* Recipe.swift in Sources */,
 				928D0840205064E5001BFD3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
