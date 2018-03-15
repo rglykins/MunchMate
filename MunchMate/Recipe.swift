@@ -14,10 +14,15 @@ class Recipe: NSObject {
     var steps: [String]
     var image: UIImage
     
-    init(_ name:String, _ steps:[String], _ image: UIImage){
+    init(_ name:String, _ steps:[String], _ image: UIImage?){
         self.name = name
         self.steps = steps
-        self.image = image
+        if let image = image{
+            self.image = image
+        }
+        else{
+            self.image = UIImage(named: "channa")!
+        }
         super.init()
     }
     
