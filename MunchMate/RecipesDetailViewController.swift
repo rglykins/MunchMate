@@ -16,15 +16,15 @@ protocol RecipeDetailsViewDelegate: class {
 
 
 class RecipesDetailViewController: UIViewController {
-
- 
     var recipeToEdit: Recipe?
     var steps:[String] = []
     weak var delegate: RecipeDetailsViewDelegate?
-    
+    var configStorage: [String:[String:Float]]?
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var  doneBarButton: UIBarButtonItem!
+    @IBOutlet weak var tableView: UITableView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,9 +50,28 @@ class RecipesDetailViewController: UIViewController {
         }
         else
         {
-            delegate?.RecipeDetailsView(self, didFinishAdd: Recipe(textField.text!, steps, imageView.image!))
+            let item = Recipe(textField.text!, steps, imageView.image)
+            item.filterConfig = configStorage
+            delegate?.RecipeDetailsView(self, didFinishAdd: item)
         }
     }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "modifyFilter" {
+           let controller = segue.destination as! NutritionDetailsController
+            if let recipeToEdit = recipeToEdit{
+                controller.filterConfig = recipeToEdit.filterConfig
+            }
+            controller.delegate = self
+        }
+
+    }
+    
+    
+    
+    
+    
 }
 
 
@@ -72,7 +91,33 @@ extension RecipesDetailViewController: UITableViewDataSource{
         return cell
     }
     
+    @IBAction func showAlert(Sender:UIButton){
+        
+       let alert = UIAlertController(title: "Add step", message: "Please add the next step", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addTextField { (textField) in
+            textField.placeholder = "Add step"
+        }
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { [weak alert] (_) in
+            let textField = alert!.textFields![0]
+            self.steps.append(textField.text!)
+                    let indexPath = IndexPath(row: self.steps.count - 1, section: 0)
+            self.tableView.insertRows(at: [indexPath], with: .automatic)
+        }))
+        present(alert, animated: true, completion: nil)
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath){
+        
+        steps.remove(at: indexPath.row)
+        let indexPaths = [indexPath]
+        tableView.deleteRows(at: indexPaths, with: .automatic)
+        
+        
+        
+    }
 }
+
+
 
 extension RecipesDetailViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     @IBAction func imageSearch(){
@@ -107,5 +152,23 @@ extension RecipesDetailViewController: UITextFieldDelegate{
         }
         return true
     }
+}
+
+extension RecipesDetailViewController: NutritionDetailsControllerDelegate{
+    func NutritionDetailsDidSubmit(_ nutrititionDetailController: NutritionDetailsController, didFinishEdit config: [String : [String : Float]]) {
+        if let recipeToEdit = recipeToEdit {
+            recipeToEdit.filterConfig = config
+        }
+        else{
+            configStorage = config
+         }
+        navigationController?.popViewController(animated: true)
+    }
+    
+    
+    
+    
+    
+    
 }
 

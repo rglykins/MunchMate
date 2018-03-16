@@ -12,4 +12,9 @@ class RecipeCell: UICollectionViewCell {
     
     @IBOutlet weak var recipeName: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var button: UIButton!
+    var indexTag = 0
+    
+    
+    
 }

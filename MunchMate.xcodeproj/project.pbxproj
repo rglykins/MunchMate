@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		928AA895205B480800EAB1EE /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AA894205B480800EAB1EE /* Filter.swift */; };
+		928AA897205B61CA00EAB1EE /* Filterer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AA896205B61CA00EAB1EE /* Filterer.swift */; };
 		928D0840205064E5001BFD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D083F205064E5001BFD3B /* AppDelegate.swift */; };
 		928D0842205064E5001BFD3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D0841205064E5001BFD3B /* HomeViewController.swift */; };
 		928D0845205064E5001BFD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D0843205064E5001BFD3B /* Main.storyboard */; };
@@ -54,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		928AA894205B480800EAB1EE /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		928AA896205B61CA00EAB1EE /* Filterer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filterer.swift; sourceTree = "<group>"; };
 		928C89A2205365E100C87727 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		928D083C205064E5001BFD3B /* MunchMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunchMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928D083F205064E5001BFD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +183,8 @@
 				92F64B84205A08A900371012 /* NutritionDetailsController.swift */,
 				92F64B86205A1F4500371012 /* Recipe.swift */,
 				92F64B8A205A3CA800371012 /* nutritionCell.swift */,
+				928AA894205B480800EAB1EE /* Filter.swift */,
+				928AA896205B61CA00EAB1EE /* Filterer.swift */,
 			);
 			path = MunchMate;
 			sourceTree = "<group>";
@@ -337,12 +343,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				929C35B1205853B900A1672F /* RecipeCell.swift in Sources */,
+				928AA895205B480800EAB1EE /* Filter.swift in Sources */,
 				92F64B8B205A3CA800371012 /* nutritionCell.swift in Sources */,
 				92FC2ED32053146200376435 /* RecipesViewController.swift in Sources */,
 				92F64B85205A08A900371012 /* NutritionDetailsController.swift in Sources */,
 				92D5988D2051BC0400EEAF80 /* NewMealViewController.swift in Sources */,
 				92F64B7F205A044600371012 /* RecipesDetailViewController.swift in Sources */,
 				928D0842205064E5001BFD3B /* HomeViewController.swift in Sources */,
+				928AA897205B61CA00EAB1EE /* Filterer.swift in Sources */,
 				92F64B87205A1F4500371012 /* Recipe.swift in Sources */,
 				928D0840205064E5001BFD3B /* AppDelegate.swift in Sources */,
 			);

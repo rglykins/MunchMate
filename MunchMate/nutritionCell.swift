@@ -11,6 +11,7 @@ import UIKit
 class nutritionCell: UITableViewCell {
 
     @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var currentVal: UILabel!
     @IBOutlet weak var toggle: UISwitch!
     @IBOutlet weak var slider: UISlider!
 }

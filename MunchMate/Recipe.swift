@@ -13,6 +13,7 @@ class Recipe: NSObject {
     var name: String
     var steps: [String]
     var image: UIImage
+    var filterConfig: [String:[String:Float]]?
     
     init(_ name:String, _ steps:[String], _ image: UIImage?){
         self.name = name
